@@ -1,0 +1,9 @@
+server {
+    listen 9000 default_server;
+
+    location /
+    {
+        stub_status on;
+        access_log off;
+    }
+}
